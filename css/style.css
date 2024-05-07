@@ -1,0 +1,32 @@
+.parent h1{
+    color: blue;
+}
+
+input + button {
+    background-color: aquamarine;
+}
+
+div > div {
+    color: blueviolet;
+}
+
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+.faltu{
+    color: blue;
+}
+
+div[class="faltu"] {
+color: red;
+}
+
+a[href*="google"] {
+    color: grey;
+}
+
+button:hover{
+    background-color: brown;
+}
