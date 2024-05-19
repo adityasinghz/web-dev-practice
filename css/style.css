@@ -1,32 +1,15 @@
-.parent h1{
-    color: blue;
+#parent {
+  height: 100vh;
+  width: 100wh;
+  background-color: red;
 }
 
-input + button {
-    background-color: aquamarine;
-}
-
-div > div {
-    color: blueviolet;
-}
-
-
-input[type="password"] {
-    color: greenyellow;
-}
-
-.faltu{
-    color: blue;
-}
-
-div[class="faltu"] {
-color: red;
-}
-
-a[href*="google"] {
-    color: grey;
-}
-
-button:hover{
-    background-color: brown;
+#box1 {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
 }
