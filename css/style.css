@@ -15,15 +15,16 @@ body {
 #box1 {
   height: 25%;
   width: 20%;
-  background-color: white;
   background-image: url("https://www.freepnglogos.com/uploads/netflix-logo-history-png-33.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px 175px;
 }
 
 #box2 {
   height: 25%;
   width: 20%;
   background-image: url("https://logowik.com/content/uploads/images/disney-hotstar3268.jpg"); /*500x134*/
-  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px 175px;
@@ -33,7 +34,6 @@ body {
   height: 25%;
   width: 20%;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Amazon_Prime_Video_logo.svg/1200px-Amazon_Prime_Video_logo.svg.png?20180717024615");
-  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250px 100px;
@@ -43,8 +43,34 @@ body {
   height: 25%;
   width: 20%;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/df/Discovery%2B.png?20210721202414");
-  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250px 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  #parent {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  body {
+    height: 50%;
+    width: 100%;
+  }
+  #box1 {
+    height: 50%;
+    width: 100%;
+  }
+  #box2 {
+    height: 50%;
+    width: 100%;
+  }
+  #box3 {
+    height: 50%;
+    width: 100%;
+  }
+  #box4 {
+    height: 50%;
+    width: 100%;
+  }
 }
