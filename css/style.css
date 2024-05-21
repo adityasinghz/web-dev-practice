@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px 175px;
+  background-color: white;
 }
 
 #box2 {
@@ -28,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px 175px;
+  background-color: white;
 }
 
 #box3 {
@@ -37,6 +39,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250px 100px;
+  background-color: white;
 }
 
 #box4 {
@@ -46,6 +49,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250px 80px;
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
